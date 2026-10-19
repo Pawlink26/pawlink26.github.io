@@ -1,0 +1,9 @@
+# Fictional test site. Only the Nullinks crawler may read it; everything else is disallowed.
+User-agent: Nullinks-discovery
+Disallow: /private/
+Crawl-delay: 2
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://pawlink26.github.io/sitemap.xml
